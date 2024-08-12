@@ -1,4 +1,0 @@
-C:/Users/Cyril/CLionProjects/Dynamic.BackDoor/cmake-build-debug/CMakeFiles/Dynamic_BackDoorServer.dir
-C:/Users/Cyril/CLionProjects/Dynamic.BackDoor/cmake-build-debug/CMakeFiles/Dynamic_BackDoorClient.dir
-C:/Users/Cyril/CLionProjects/Dynamic.BackDoor/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/Cyril/CLionProjects/Dynamic.BackDoor/cmake-build-debug/CMakeFiles/rebuild_cache.dir
