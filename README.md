@@ -2,7 +2,7 @@
 <h1 align="center">Dynamic.BackDoor</h1>
 
 Dynamic.BackDoor is a simple and basic Windows backdoor that allows CMD commands to be ran remotely and silently.
-***This product is NOT linked or part of Dynamic.\* products line. No support, pre compiled exe files and/or updates will be provided.***
+***This product is NOT linked or part of Dynamic.\* products line. No support, no pre compiled exe files and/or no updates will be provided.***
 
 ## Features & Functionalities
 
