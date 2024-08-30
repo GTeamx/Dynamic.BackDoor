@@ -5,6 +5,7 @@
 #include "winsock2.h"
 #include <iostream>
 #include <thread>
+#include <string>
 
 void sendPacket(std::string data);
 void receiveOutput();
@@ -57,8 +58,7 @@ int main() {
         std::string message = userMessage; //TODO: fix encryption being too big aka not fitting in UDP :skull:
 
         // Send UDP packet to broadcast
-        sendto(clientSocket, message.c_str(), strlen(message.c_str()) + 1, 0, (sockaddr *) &clientSocketConfig,
-               sizeof(clientSocketConfig));
+        sendto(clientSocket, message.c_str(), strlen(message.c_str()) + 1, 0, (sockaddr *) &clientSocketConfig,sizeof(clientSocketConfig));
 
         // Cleanup
         closesocket(clientSocket);
